@@ -1,3 +1,4 @@
 .DS_Store
+libs/js/config.js
 libs/php/apiConfig.php
 libs/php/countryBorders.geo.json
