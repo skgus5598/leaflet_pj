@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazetteer</title>
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/leaflet.css?after">
+    <link rel="stylesheet" href="libs/css/easy-button.css">
+    <link rel="stylesheet" href="libs/css/L.Control.Window.css">
+    <link rel="stylesheet" href="libs/css/MarkerCluster.Default.css">
+    <link rel="stylesheet" href="libs/css/font-awesome.css">
+    <link rel="stylesheet" href="libs/css/leaflet.awesome-markers.css">
+    <link rel="stylesheet" href="libs/css/style.css?after">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="loader" style="background-color: #202b38"></div>
+    <div class="page">
+
+    <header>
+        <h1 id="webTitle">&nbsp;<i>Gazetteer</i></h1>
+        <select id="countrySelect" class="form-select" name="country">
+        </select>
+    </header>
+
+    <div id="map"></div>
+    <div id="popModal" class="modal" data-bs-backdrop="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content shadow">
+                <div class="modal-header bg-success bg-gradient text-white">
+                    <h5 class="modal-title">Title</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table id="modalTb" class="table">
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-success btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <script src="libs/js/jquery-2.2.3.min.js"></script>
+        <script src="libs/js/leaflet.js"></script>
+        <script src="libs/js/bootstrap.min.js"></script>
+        <script src="libs/js/leaflet.awesome-markers.min.js"></script>
+        <script src="libs/js/easy-button.js"></script>
+        <script src="libs/js/leaflet.markercluster.js"></script>
+        <script src="libs/js/L.Control.Window.js"></script>
+        <script src="libs/js/Leaflet.ControlledBounds.js"></script>
+        <script src="libs/js/script.js?ver=10"></script>
+</body>
+
+</html>
