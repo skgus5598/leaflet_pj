@@ -2,7 +2,7 @@
 
 👉 http://nahyunraina.com/project1
 
-# Summary of the project 👇 
+# Summary of the project 
 <img width="500" height="600" alt="gz_2" src="https://github.com/skgus5598/leaflet_pj/assets/78111263/cbeb5a7b-1373-4658-8b32-5db2758f2095">
 
 ## Description
